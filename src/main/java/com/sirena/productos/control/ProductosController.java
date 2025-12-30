@@ -17,7 +17,7 @@ public class ProductosController {
 	public ResponseEntity<List<String>>listarProductos(){
 		List<String> listaProductos= new ArrayList<>();
 		listaProductos.add("Ropa");
-		listaProductos.add("Jabon");
+		listaProductos.add("Jabon Zote");
 		listaProductos.add("Corona");
 		listaProductos.add("Refresco");
 		return new ResponseEntity<List<String>>(listaProductos,HttpStatus.ACCEPTED);
